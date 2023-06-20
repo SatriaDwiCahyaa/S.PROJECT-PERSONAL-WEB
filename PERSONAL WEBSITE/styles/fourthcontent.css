@@ -1,0 +1,125 @@
+/* FOURTH CONTENT */
+.fourth-content {
+  margin-top: 239px;
+}
+
+
+
+/* HEADING */
+.fourth-content .heading-text {
+  position: relative;
+}
+
+/* PRODUCT CONTAINER ITEM */
+.product-information {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+/* INFORMATION */
+.expertise-information {
+  position: relative;
+}
+
+/* FIRST ITEM */
+.second-information-f img,
+.first-information-f img {
+  width: 340px;
+  height: 260px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+  border: 3px solid #000;
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 1);
+}
+
+.second-information-f .highlight-text,
+.first-information-f .highlight-text {
+  font-weight: 550;
+  color: #000;
+  font-size: 25px;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+.second-information-f p,
+.first-information-f p {
+  color: rgb(96, 96, 96);
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+
+/* LINK */
+.first-link-f {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first-link-f .free-link {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(222, 29, 62);
+  margin-right: 15px;
+  padding: 3px 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 1);
+  border: 1px solid #000;
+  transition: box-shadow 0.40s, color 0.40s, background-color 0.40s;
+}
+
+.first-link-f .free-link:hover {
+  background-color: rgb(134, 11, 48);
+  color: #fff;
+}
+
+.first-link-f .category-link {
+  text-decoration: none;
+  color: rgb(222, 29, 62);
+  background-color: rgba(222, 29, 61, 0.089);
+  font-weight: bold;
+  padding: 8px 15px;
+  font-size: 12px;
+  border-radius: 15px;
+  transition: color 0.40s, background-color 0.40s;
+}
+
+.first-link-f .category-link:hover {
+  color: #fff;
+  background-color: rgb(222, 29, 62);
+}
+
+/* MARGIN ITEM */
+.second-information-f {
+  margin-left: 50px;
+}
+
+/* LINK FOR TO SEE ALL */
+.link-toseeall {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.link-toseeall a {
+  text-decoration: none;
+  color: rgb(222, 29, 62);
+  background-color: rgba(222, 29, 61, 0.089);
+  padding: 15px 100px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #000;
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  transition: background-color 0.40s, color 0.35s;
+}
+
+.link-toseeall a:hover {
+  background-color: rgb(222, 29, 62);
+  color: #fff;
+}

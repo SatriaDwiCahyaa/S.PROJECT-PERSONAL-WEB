@@ -1,0 +1,73 @@
+/* CONTAINER */
+.container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 100px 0px 100px;
+}
+
+/* LOGO SECTION */
+.section-logo {
+  position: relative;
+}
+
+.section-logo img {
+  width: 66px;
+  cursor: pointer;
+}
+
+/* NAVIGATION BAR */
+.section-nav {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section-nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-nav ul li {
+  list-style: none;
+  margin-right: 60px;
+}
+
+.section-nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  font-stretch: 200%;
+  transition: color 0.40s;
+  font-weight: 550;
+}
+
+.section-nav ul li a:hover {
+  color: rgb(202, 29, 58);
+
+}
+
+.section-nav button {
+  font-size: 24px;
+  background-color: rgb(222,29,62);
+  border: none;
+  color: #ffffff;
+  padding: 7px 12px 7px 12px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 1px rgba( 0, 0, 0, 1);
+  transition: background-color 0.50s;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.section-nav button:hover {
+  background-color: rgb(161, 7, 32);
+}
+
+.section-nav button:active {
+  box-shadow: none;
+  padding: 6px 11px 6px 11px;
+
+}

@@ -1,0 +1,90 @@
+/* CONTAINER-FOOTER */
+.footer-container {
+  background-color: rgb(5, 5, 5);
+  margin-top: 140px;
+  padding: 135px 117px 40px 117px;
+}
+
+/* FLEX */
+.flex-display {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* LEFT */
+.left-ftr {
+  display: inline-block;
+  color: #fff;
+}
+
+.left-ftr p {
+  font-size: 65px;
+  margin-bottom: 56px;
+}
+
+.left-ftr a {
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(222, 29, 62);
+  padding: 12px 40px;
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 1px rgb(255, 255, 255);
+  transition: background-color 0.40s;
+}
+
+.left-ftr a:hover {
+  background-color: rgb(158, 18, 41);
+}
+
+
+
+/* RIGHT */
+.right-ftr {
+  display: inline-block;
+  text-align: start;
+  margin-left: 430px;
+}
+
+.right-ftr .link-footer ul li {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.right-ftr .link-footer ul li a {
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.40s;
+}
+
+.right-ftr .link-footer ul li a:hover {
+  color: rgb(222, 29, 62);
+}
+
+.social-media {
+  margin-top: 50px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+  transition: color 0.25s;
+}
+
+.logo:hover {
+  color: rgb(222, 29, 62);
+}
+
+/* COPYRIGHT SECTION */
+.copyright-sec {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.copyright-sec p {
+  color: white;
+}

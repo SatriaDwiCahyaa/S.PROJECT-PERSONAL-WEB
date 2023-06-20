@@ -1,0 +1,63 @@
+/* THIRD CONTAINER */
+.third-content {
+  margin-top: 240px;
+}
+
+
+/* HEADING */
+.heading-text {
+  margin-bottom: 50px;
+}
+
+.heading-text p {
+  font-size: 70px;
+  font-weight: 550;
+}
+
+
+/* INFORMATION CONTAINER */
+.expertise-information {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  vertical-align: top;
+}
+
+
+
+/* FIRST */
+.first-information {
+  position: relative;
+}
+
+.fourth-information img,
+.third-information img,
+.second-information img,
+.first-information img {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+.fourth-information .highlight-text,
+.third-information .highlight-text,
+.second-information .highlight-text,
+.first-information .highlight-text {
+  font-weight: bold;
+  color: #000;
+  font-size: 21px;
+}
+
+.fourth-information p,
+.third-information p,
+.second-information p,
+.first-information p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+}
+
+.first-information,
+.second-information,
+.third-information {
+  margin-right: 145px;
+}
